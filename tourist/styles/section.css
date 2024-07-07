@@ -1,0 +1,21 @@
+section {
+  
+
+  & .card {
+    & img {
+      border-radius: 28px;
+      width: 100%;
+    }
+  }
+  
+  & .list-title {
+
+    & header {
+
+      & span {
+        
+      }
+    }
+    
+  }
+}

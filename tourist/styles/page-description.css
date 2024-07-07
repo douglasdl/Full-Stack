@@ -1,0 +1,9 @@
+section#page-description {
+  display: flex;
+  flex-direction: column;
+
+  & img {
+    border-radius: 28px;
+    width: 100%;
+  }
+}

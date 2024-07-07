@@ -1,0 +1,45 @@
+section.card {
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+
+  & img {
+    height: 22rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 28px;
+  }
+
+  & .good-for {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  & .history, .couples, .families, .budget {
+    font-size: 1rem;
+    font-weight: bold;
+    
+    margin-left: 1rem;
+    list-style-type: disc;
+    
+    &::marker {
+      color: black;
+    }
+  }
+
+  & .history {
+    color: var(--accent-blue);
+  }
+  
+  & .couples {
+    color: var(--accent-purple);
+  }
+  
+  & .families {
+    color: var(--accent-pink);
+  }
+  
+  & .budget {
+    color: var(--accent-orange);
+  }
+}
